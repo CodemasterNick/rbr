@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria - Recanto dos Ribeiros</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f7f0;
+      color: #2f4f4f;
+    }
+    header {
+      background-color: #d8e3dc;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2f4f4f;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #d8e3dc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galeria - Recanto dos Ribeiros</h1>
+    <nav>
+      <a href="telainicial.html" style="color: chocolate;">Início</a>
+    </nav>
+  </header>
+
+  <section class="gallery">
+    <img src="./img/fmlhome.png" alt="Família ao ar livre">
+    <img src="./img/cslzv.png" alt="Cabana na natureza">
+    <img src="./img/fmlfgr.png" alt="Fogueira à noite">
+    <img src="./img/esns.png" alt="Piquenique em família">
+    <img src="./img/mlt.png" alt="Lago ao entardecer">
+    <img src="./img/cf.png" alt="Cabana na floresta">
+    <img src="./img/pool.png" alt="Piscina">
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Recanto dos Ribeiros. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
